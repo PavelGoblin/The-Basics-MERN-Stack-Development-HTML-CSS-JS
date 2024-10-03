@@ -16,8 +16,46 @@ main{
 }
 
 nav{
-  background-color: blue;
+ /* background-color: blue;*/
   padding: 60px 100px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+nav h2{
+  font-size: 49px;
+  font-weight: 500;
+}
+nav a{
+  font-size: 39px;
+  color:#000;
+  text-decoration: none;
+  gap: 30px;
+}
+
+section{
+  /*background-color: red;*/
+  padding:60px 100px;
+}
+
+section .hero-text1{
+  /*background-color: rebeccapurple;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
+}
+
+.hero-text1 h1{
+  font-size: 140px;
+  text-transform: uppercase;
+  font-weight: 900;
 }
